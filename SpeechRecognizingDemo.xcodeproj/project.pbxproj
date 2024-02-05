@@ -45,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF00A5E52B710A5700FF2845 /* SpeechRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				BF8185842B70C26700D91555 /* SpeechRecorderManager.swift */,
+				BF1F4B372B6E2BA300C4799A /* SpeechRecorder.swift */,
+			);
+			path = SpeechRecorder;
+			sourceTree = "<group>";
+		};
 		BF1F4B132B6E093300C4799A = {
 			isa = PBXGroup;
 			children = (
@@ -64,12 +73,11 @@
 		BF1F4B1E2B6E093400C4799A /* SpeechRecognizingDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BF8185832B70B4B300D91555 /* Tools */,
-				BF8185842B70C26700D91555 /* SpeechRecorderManager.swift */,
 				BF1F4B1F2B6E093400C4799A /* AppDelegate.swift */,
 				BF1F4B212B6E093400C4799A /* SceneDelegate.swift */,
 				BF1F4B232B6E093400C4799A /* ViewController.swift */,
-				BF1F4B372B6E2BA300C4799A /* SpeechRecorder.swift */,
+				BF00A5E52B710A5700FF2845 /* SpeechRecorder */,
+				BF8185832B70B4B300D91555 /* Tools */,
 				BF1F4B252B6E093400C4799A /* Main.storyboard */,
 				BF1F4B282B6E093500C4799A /* Assets.xcassets */,
 				BF1F4B2A2B6E093500C4799A /* LaunchScreen.storyboard */,
